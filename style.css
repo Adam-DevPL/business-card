@@ -9,8 +9,11 @@ html {
 }
 
 body {
-  background: url(star-wars.jpg);
-  background-size: contain;
+  background-image: url(star-wars_2.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -19,7 +22,7 @@ body {
 }
 
 .main {
-  background: #f8f8f8;
+  background: #C6C7C4;
   border-radius: 16px;
   border: 8px outset;
   width: 624px;
@@ -36,6 +39,7 @@ body {
   font-size: 16px;
   line-height: 22px;
   margin: 0;
+  text-align: justify;
 }
 
 .person__description--with-margin {
